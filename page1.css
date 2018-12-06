@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(assets/slika1.png);
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    position: relative;
+    width: 369px;
+    height: 459px;
+    background-color: #242424;
+    margin: 50px;
+    border-radius: 14px;
+}
+
+.box h2 {
+    position: absolute;
+    top: 40px;
+    left: 112px;
+    color: #ffffff;
+
+}
+
+.box .main {
+    position: absolute;
+    top: 96px;
+    left: 77px;
+}
+
+.krug {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+
+.krug .tales {
+    background-color: #4db2ac;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 40px;
+    bottom: 64px;
+    border-radius: 50%;
+}
+
+.krug .yellows {
+    background-color: #edec93;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 118px;
+    bottom: 64px;
+    border-radius: 50%;
+}
+
+.krug .greys {
+    background-color: #cacaca;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 197px;
+    bottom: 64px;
+    border-radius: 50%;
+}
+
+.krug .whites {
+    background-color: #ffffff;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    right: 36px;
+    bottom: 64px;
+    border-radius: 50%;
+}
+
+.box .t {
+    color: #ffffff;
+    position: absolute;
+    bottom: 42px;
+    left: 45px;
+}
+
+.box .y {
+    color: #ffffff;
+    position: absolute;
+    bottom: 42px;
+    left: 115px;
+}
+
+.box .g {
+    color: #ffffff;
+    position: absolute;
+    bottom: 42px;
+    left: 200px;
+}
+
+.box .w {
+    color: #ffffff;
+    position: absolute;
+    bottom: 42px;
+    left: 280px;
+}
+
+.krug .tales h3 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.krug .yellows h3 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.krug .greys h3 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.krug .whites h3 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
